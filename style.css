@@ -1,0 +1,103 @@
+body{
+    background-color: #0081C9;
+    list-style-type: none;
+}
+/* les liens */
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* Baniere */
+.banniere{
+    background-color: #5BC0F8;
+    box-shadow: 2px 3px 0 rgb(85, 80, 80);
+    line-height: 60px;
+    text-align: center;
+    word-spacing: 60px;
+    border-radius: 50px;
+}
+/* Le fond de ma barre vertical du milieu */
+nav .menu{
+    list-style-type: none;    
+    text-align: center;
+    background-color: #5BC0F8;
+    box-shadow: 2px 3px 0 rgb(85, 80, 80);
+    border-radius: 20px;
+    float: left;
+    padding: 30px;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+/* Les bouton de la barre vertical du milieu */
+nav li{
+    text-align: center;
+    background-color: #FFC93C;
+    box-shadow: 3px 4px 0 rgb(85, 80, 80);
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+}
+/* Sous menu du bouton Projet */
+.submenu-Projet{
+    display: none;
+    list-style-type: none; 
+    margin: 0%;
+}
+/* Passage de la souris sur Projet */
+nav li:hover .submenu-Projet{
+    box-shadow: 3px 4px 0 rgb(85, 80, 80);
+    background-color: transparent;
+    display: inline-block;
+    position:absolute; 
+    margin-top: -35px;
+}
+/* Sous menu du bouton Veilles */
+.submenu-Veilles{
+    display: none;
+    list-style-type: none;
+}
+/* Passage de la souris sur Veilles */
+nav li:hover .submenu-Veilles{
+    background-color: transparent;
+    box-shadow: 3px 4px 0 rgb(85, 80, 80);
+    display: inline-block;
+    position:absolute;
+    margin-top: -35px;
+}
+/* La boite a droite */
+nav .text{
+    display: flex;
+    box-shadow: 3px 4px 0 rgb(85, 80, 80);
+    background-color: #5BC0F8;
+    border-radius: 5px;
+    margin-left: 300px;
+    width: 1300px;
+    padding: 50px;
+}
+/* Le pied de page */
+footer{
+    background-color: #5BC0F8;
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    bottom: 0;
+    height: 5rem;
+    right: 0;
+    bottom: 0;
+    left: 0%;
+}
+/* Iframe de la page Accueil */
+.droite{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #a2f900;
+}
+/* Iframe */
+iframe[name="frame1"] {
+    /* dimensions de l'iframe en pixels */
+    width: 1300px;
+    height: 565px;
+    padding: 1px;
+    box-shadow: 3px 4px 0 rgb(85, 80, 80);
+}
