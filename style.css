@@ -7,6 +7,9 @@ a{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+section{
+    display: flex;
+}
 /* Baniere */
 .banniere{
     background-color: #5BC0F8;
@@ -26,7 +29,17 @@ nav .menu{
     float: left;
     padding: 30px;
     margin-top: 0px;
-    margin-left: 70px;
+    margin-left: 40px;
+}
+/* La boite a droite */
+section .text{
+    display: flex;
+    box-shadow: 3px 4px 0 rgb(85, 80, 80);
+    background-color: #5BC0F8;
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 1300px;
+    padding: 50px;
 }
 /* Les bouton de la barre vertical du milieu */
 nav li{
@@ -64,16 +77,6 @@ nav li:hover .submenu-Veilles{
     position:absolute;
     margin-top: -35px;
 }
-/* La boite a droite */
-nav .text{
-    display: flex;
-    box-shadow: 3px 4px 0 rgb(85, 80, 80);
-    background-color: #5BC0F8;
-    border-radius: 5px;
-    margin-left: 300px;
-    width: 1300px;
-    padding: 50px;
-}
 /* Le pied de page */
 footer{
     background-color: #5BC0F8;
@@ -100,4 +103,22 @@ iframe[name="frame1"] {
     height: 565px;
     padding: 1px;
     box-shadow: 3px 4px 0 rgb(85, 80, 80);
+}
+/* les sous-menu du CV */
+.submenu-CV{
+    display: none;
+    list-style-type: none; 
+    margin: 0%;
+}
+/* Passage de la souris sur Projet */
+nav li:hover .submenu-CV{
+    box-shadow: 3px 4px 0 rgb(85, 80, 80);
+    background-color: transparent;
+    display: inline-block;
+    position:absolute; 
+    margin-top: -35px;
+}
+img{
+    width: 300000px;
+    box-shadow: rgb(85, 80, 80);
 }
